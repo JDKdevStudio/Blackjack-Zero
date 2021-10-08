@@ -49,6 +49,7 @@
     <Compile Include="Class\Card.cs" />
     <Compile Include="Class\Dealer.cs" />
     <Compile Include="Class\Color.cs" />
+    <Compile Include="Class\Persona.cs" />
     <Compile Include="Class\Player.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
