@@ -118,13 +118,175 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SpadesJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpadesJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartsQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartsQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpadesK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpadesK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClubsQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClubsQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartsJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartsJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClubsJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClubsJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondsJ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondsJ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClubsA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClubsA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondsA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondsA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondsQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondsQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClubsK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ClubsK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hearts2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hearts2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartsA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartsA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="BlackJackCover" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BlackJackCover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpadesQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpadesQ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mesaCasino" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesaCasino.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HeartsK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HeartsK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="man" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\man.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Spades5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diamonds10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diamonds10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DiamondsK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DiamondsK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SpadesA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SpadesA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Spades7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Spades7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Clubs10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Clubs10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VolteadaRoja" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\VolteadaRoja.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
