@@ -19,12 +19,11 @@ namespace Blackjack_Zero.Class
 
        
         //Inicializar Juego
-        public void Init()
+        public void Init(Card icard)
         {
-            Deck = new List<Card>();
-            Hand = new List<Card>();
-            AddCard(Deal());
-            AddCard(Deal());
+            
+            AddCard(icard);
+            AddCard(icard);
         }
 
         //Sacar carta de la baraja

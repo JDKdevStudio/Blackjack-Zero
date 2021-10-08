@@ -61,6 +61,8 @@ namespace Blackjack_Zero
             this.stop = new System.Windows.Forms.Button();
             this.Dealer = new System.Windows.Forms.Label();
             this.Player = new System.Windows.Forms.Label();
+            this.sd = new System.Windows.Forms.Label();
+            this.sp = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.D1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mesa2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.mesa1)).BeginInit();
@@ -86,7 +88,7 @@ namespace Blackjack_Zero
             // D1
             // 
             this.D1.BackColor = System.Drawing.Color.Transparent;
-            this.D1.Image = global::Blackjack_Zero.Properties.Resources.VolteadaAzul;
+            this.D1.Image = global::Blackjack_Zero.Properties.Resources.SpadesJ;
             this.D1.Location = new System.Drawing.Point(202, 22);
             this.D1.Name = "D1";
             this.D1.Size = new System.Drawing.Size(65, 89);
@@ -412,12 +414,36 @@ namespace Blackjack_Zero
             this.Player.TabIndex = 30;
             this.Player.Text = "Jugador";
             // 
+            // sd
+            // 
+            this.sd.AutoSize = true;
+            this.sd.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.sd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sd.Location = new System.Drawing.Point(800, 142);
+            this.sd.Name = "sd";
+            this.sd.Size = new System.Drawing.Size(61, 13);
+            this.sd.TabIndex = 31;
+            this.sd.Text = "Puntaje: 00";
+            // 
+            // sp
+            // 
+            this.sp.AutoSize = true;
+            this.sp.BackColor = System.Drawing.Color.DarkSlateGray;
+            this.sp.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sp.Location = new System.Drawing.Point(800, 346);
+            this.sp.Name = "sp";
+            this.sp.Size = new System.Drawing.Size(61, 13);
+            this.sp.TabIndex = 32;
+            this.sp.Text = "Puntaje: 00";
+            // 
             // MainGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Teal;
             this.ClientSize = new System.Drawing.Size(900, 500);
+            this.Controls.Add(this.sp);
+            this.Controls.Add(this.sd);
             this.Controls.Add(this.Player);
             this.Controls.Add(this.Dealer);
             this.Controls.Add(this.stop);
@@ -454,6 +480,7 @@ namespace Blackjack_Zero
             this.Name = "MainGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BlackJack Zero";
+            this.Load += new System.EventHandler(this.MainGame_Load);
             ((System.ComponentModel.ISupportInitialize)(this.D1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mesa2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mesa1)).EndInit();
@@ -512,5 +539,7 @@ namespace Blackjack_Zero
         private System.Windows.Forms.Button stop;
         private System.Windows.Forms.Label Dealer;
         private System.Windows.Forms.Label Player;
+        private System.Windows.Forms.Label sd;
+        private System.Windows.Forms.Label sp;
     }
 }
