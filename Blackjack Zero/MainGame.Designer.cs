@@ -136,6 +136,7 @@ namespace Blackjack_Zero
             this.salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.salir.TabIndex = 2;
             this.salir.TabStop = false;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
             // UserPanel
             // 
@@ -307,6 +308,7 @@ namespace Blackjack_Zero
             this.reset.TabIndex = 20;
             this.reset.Text = "Nueva Partida";
             this.reset.UseVisualStyleBackColor = true;
+            this.reset.Click += new System.EventHandler(this.reset_Click);
             // 
             // t1
             // 
@@ -382,6 +384,7 @@ namespace Blackjack_Zero
             this.ask.TabIndex = 27;
             this.ask.Text = "Pedir";
             this.ask.UseVisualStyleBackColor = true;
+            this.ask.Click += new System.EventHandler(this.ask_Click);
             // 
             // stop
             // 
@@ -391,6 +394,7 @@ namespace Blackjack_Zero
             this.stop.TabIndex = 28;
             this.stop.Text = "Parar";
             this.stop.UseVisualStyleBackColor = true;
+            this.stop.Click += new System.EventHandler(this.stop_Click);
             // 
             // Dealer
             // 
