@@ -11,12 +11,17 @@ namespace Blackjack_Zero.Class
         private List<Card> deck;
         private List<Card> hand;
 
+        public string Suit { get; internal set; }
+        public string Symbol { get; internal set; }
+        public string Score { get; internal set; }
+        public string Color { get; internal set; }
+
         public void Generate()
         {
             deck = new List<Card>();
-            char[] suits = { '♦', '♥', '♠', '♣' };
-            string[] symbols = {"A","2","3","4","5","6",
-                                "5","6","7","8","9","10","J","K","Q"};
+            hand = new List<Card>();
+            char[] suits = {'♦','♥','♠','♣'};
+            string[] symbols = {"A","2","3","4","5","6","7","8","9","10","J","K","Q"};
             foreach (char s in suits)
             {
                 foreach (string sy in symbols)
@@ -30,16 +35,21 @@ namespace Blackjack_Zero.Class
         {
             return deck;
         }
+        public List<Card> GetHand()
+        {
+            return hand;
+        }
         private void Randomize()
         {
             Random rnd = new Random();
             this.deck = this.deck.OrderBy(x => rnd.Next()).ToList();
         }
-        public void Deal()
+        public Card Deal()
         {
-            Card c = this.deck.First();
-            this.deck.RemoveAt(this.deck.Count - 1);
-            hand.Add(c);
+            Card c = this.deck.Last();
+            this.deck.RemoveAt(this.deck.Count-1);
+            return c;
+                
         }
     }
 }
