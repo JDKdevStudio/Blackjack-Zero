@@ -623,6 +623,16 @@ namespace Blackjack_Zero.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap VolteadaAzul {
+            get {
+                object obj = ResourceManager.GetObject("VolteadaAzul", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap VolteadaRoja {
             get {
                 object obj = ResourceManager.GetObject("VolteadaRoja", resourceCulture);

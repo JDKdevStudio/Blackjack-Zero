@@ -256,5 +256,8 @@
   <ItemGroup>
     <None Include="Resources\VolteadaRoja.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VolteadaAzul.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
