@@ -8,6 +8,6 @@ namespace Blackjack_Zero.Class
 {
     class Player : Persona
     {
-      
+
     }
 }

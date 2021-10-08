@@ -19,11 +19,11 @@ namespace Blackjack_Zero.Class
 
        
         //Inicializar Juego
-        public void Init(Card icard)
+        public void Init(Dealer dealer)
         {
             Hand = new List<Card>();
-            AddCard(icard);
-            AddCard(icard);
+            AddCard(dealer.Deal());
+            AddCard(dealer.Deal());
         }
 
         //Sacar carta de la baraja
@@ -52,6 +52,16 @@ namespace Blackjack_Zero.Class
         {
             return Hand;
         }
-        
+
+        //Sumar Puntaje Cartas
+        public int SumScore()
+        {
+            int count = 0;
+            foreach(Card c in Hand)
+            {
+                count = count + c.Score;
+            }
+            return count;
+        }
     }
 }
