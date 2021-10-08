@@ -21,7 +21,7 @@ namespace Blackjack_Zero.Class
         //Inicializar Juego
         public void Init(Card icard)
         {
-            
+            Hand = new List<Card>();
             AddCard(icard);
             AddCard(icard);
         }
